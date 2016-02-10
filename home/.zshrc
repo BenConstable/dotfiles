@@ -35,4 +35,3 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 # Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
-

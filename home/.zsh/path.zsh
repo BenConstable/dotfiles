@@ -17,4 +17,3 @@ PATH="$PATH:$HOME/.node/bin"
 # Dedupe https://github.com/thoughtbot/dotfiles/pull/450
 
 export -U PATH
-
