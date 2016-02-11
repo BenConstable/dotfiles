@@ -8,9 +8,6 @@ export ZSH=/Users/ben/.oh-my-zsh
 # Theme
 ZSH_THEME="robbyrussell"
 
-# Use case sensitive completion
-CASE_SENSITIVE="true"
-
 # Enable command autocorrection
 ENABLE_CORRECTION="true"
 
