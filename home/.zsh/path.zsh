@@ -14,6 +14,11 @@ PATH="$PATH:$HOME/.composer/vendor/bin"
 
 PATH="$PATH:$HOME/.node/bin"
 
+# Local NPM
+
+PATH="$PATH:./node_modules/.bin"
+
 # Dedupe https://github.com/thoughtbot/dotfiles/pull/450
 
 export -U PATH
+
