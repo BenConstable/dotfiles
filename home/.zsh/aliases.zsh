@@ -2,7 +2,7 @@
 alias git=hub
 
 # Quickly check IP
-alias ip="curl ifconfig.me"
+alias ip="curl ifconfig.co"
 
 # Get current timestamp
 alias timestamp="date +%s"
