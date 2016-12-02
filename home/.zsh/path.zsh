@@ -18,6 +18,10 @@ PATH="$PATH:$HOME/.node/bin"
 
 PATH="$PATH:./node_modules/.bin"
 
+# Custom functions locations
+
+fpath=("$HOME/.zsh/functions" $fpath)
+
 # Dedupe https://github.com/thoughtbot/dotfiles/pull/450
 
 export -U PATH

@@ -6,7 +6,7 @@
 export ZSH=/Users/ben/.oh-my-zsh
 
 # Theme
-ZSH_THEME="robbyrussell"
+ZSH_THEME="pure"
 
 # Enable command autocorrection
 ENABLE_CORRECTION="true"
