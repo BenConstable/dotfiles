@@ -6,6 +6,10 @@ PATH="/usr/local/sbin:$PATH"
 
 PATH="$PATH:$HOME/bin"
 
+# Homebrew's PHP
+
+PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
+
 # Composer
 
 PATH="$PATH:$HOME/.composer/vendor/bin"
