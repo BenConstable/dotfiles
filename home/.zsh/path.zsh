@@ -22,6 +22,10 @@ PATH="$PATH:$HOME/.node/bin"
 
 PATH="$PATH:./node_modules/.bin"
 
+# Yarn
+
+PATH="$PATH:`yarn global bin`"
+
 # Custom functions locations
 
 fpath=("$HOME/.zsh/functions" $fpath)
