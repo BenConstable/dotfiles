@@ -9,3 +9,6 @@ alias timestamp="date +%s"
 
 # Don't correct gulp
 alias gulp="nocorrect gulp"
+
+# Don't correct composer
+alias composer="nocorrect composer"
