@@ -13,6 +13,7 @@ PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
 # Composer
 
 PATH="$PATH:$HOME/.composer/vendor/bin"
+PATH="$PATH:./vendor/bin"
 
 # Node
 
