@@ -21,7 +21,7 @@ HIST_STAMPS="yyyy-mm-dd"
 ZSH_CUSTOM=$HOME/.zsh
 
 # Plugins
-plugins=(git heroku composer vagrant)
+plugins=(git vagrant)
 
 #
 # User configuration
