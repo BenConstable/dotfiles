@@ -27,6 +27,18 @@ PATH="$PATH:./node_modules/.bin"
 
 PATH="$PATH:`yarn global bin`"
 
+# Rust
+
+if [ -d "$HOME/.cargo/bin" ]; then
+    PATH="$PATH:$HOME/.cargo/bin"
+fi
+
+# VS Code
+
+if [ -d "/Applications/Visual Studio Code.app/Contents/Resources/app/bin" ]; then
+    export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+fi
+
 # Custom functions locations
 
 fpath=("$HOME/.zsh/functions" $fpath)
