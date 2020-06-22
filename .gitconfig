@@ -1,0 +1,6 @@
+[user]
+	name = Ben Constable
+	email = ben.constable@mediatonic.co.uk
+
+[core]
+    excludesfile = /Users/ben/.gitignore
