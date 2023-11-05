@@ -28,6 +28,10 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Aliases
 alias ip="curl ifconfig.co"
 alias timestamp="date +%s"
+alias azfgdev="az account set -s \"Fall Guys - Dev\""
+alias azfgprod="az account set -s \"Fall Guys - Prod\""
+alias cat="bat"
+alias kcas="kubectl get configmap -n kube-system cluster-autoscaler-status -o yaml"
 
 # Ignore dotfiles when autocorrect
 CORRECT_IGNORE_FILE='.*'
@@ -36,3 +40,4 @@ export EDITOR='vim'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export AWS_OKTA_USERNAME="ben.constable"
